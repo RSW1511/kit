@@ -1,5 +1,13 @@
 # @sveltejs/kit
 
+## 1.25.1
+
+### Patch Changes
+
+- fix: correctly return 404 when navigating to a missing page and the root layout fetches a prerendered endpoint ([#10565](https://github.com/sveltejs/kit/pull/10565))
+
+- chore: update `undici` ([#10641](https://github.com/sveltejs/kit/pull/10641))
+
 ## 1.25.0
 
 ### Minor Changes
